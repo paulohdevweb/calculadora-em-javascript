@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fundo{
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiWDmtGllDC_CDtMAOpX7bu5R0ZR-Z6YYC7jwLk9kOJfOdKzYIGAW1Sg1TEzCgzRS-68HKQKIAOUId29SRfADyv0ErG9dWQ_3eaAJyB3u1fXBNs_R8qI-5K82A_wzcYvTKXzO2Z272UCU1/s1600/Afinal%252C+para+que+serve+a+Matem%25C3%25A1tica.jpg);
+    height: 100vh;
+    color: aquamarine;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+    
+}
+
+.calculadora{
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.74);
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.botao{
+    font-weight:bolder;
+    margin: 3px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    background-color: rgb(168, 185, 197);
+    border:1px solid black;
+    color: #020202;
+}
+
+.botao:hover{
+
+    background-color: rgba(41, 40, 88, 0.863);
+
+
+}
+
+#resultado{
+    background-color: rgb(84, 80, 83);
+    width: 216px; 
+    height: 40px;
+    margin: 5px;
+    font-size: 25px;
+    color:rgb(113, 207, 247);
+    text-align: right;
+    padding: 5px;
+
+
+
+}
+
